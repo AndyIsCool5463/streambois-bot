@@ -1,0 +1,23 @@
+{
+  "name": "StreamboisBot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/AndyIsCool5463/streambois-bot.git",
+  "author": "AndyIsCool5463 <andyl5463@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon ./src/Bot.js"
+  },
+  "dependencies": {
+    "better-sqlite-pool": "^0.2.2",
+    "chalk": "^2.4.2",
+    "discord.js": "^11.5.1",
+    "dotenv": "^8.2.0",
+    "enmap": "^5.2.1",
+    "fs-extra": "^8.1.0",
+    "snekfetch": "^4.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
